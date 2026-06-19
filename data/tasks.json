@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "user_input": "Summarize this paragraph for me: the contract agreement",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 2,
+    "user_input": "Can you summarize this for me? the Q3 earnings call transcript",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 3,
+    "user_input": "Give me a short version of this text: the blog post on productivity",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 4,
+    "user_input": "TL;DR this paragraph: the terms of service",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 5,
+    "user_input": "What is the main point of this? the blog post on productivity",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 6,
+    "user_input": "Provide a brief summary of the following: the new HR policy document",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 7,
+    "user_input": "I need a summary of this document: the customer feedback survey",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 8,
+    "user_input": "Condense this article into a few sentences: the Q3 earnings call transcript",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 9,
+    "user_input": "Make this shorter: the latest financial report",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 10,
+    "user_input": "Extract the key points from this: the user manual",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 11,
+    "user_input": "What is this text about? the article about AI trends",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 12,
+    "user_input": "Give me the gist of this: the blog post on productivity",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 13,
+    "user_input": "Shorten this text: the latest financial report",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 14,
+    "user_input": "Briefly explain this: the Q3 earnings call transcript",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 15,
+    "user_input": "Summarize the following passage: the user manual",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 16,
+    "user_input": "Create an abstract for this: the new HR policy document",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 17,
+    "user_input": "What are the main takeaways from this? the contract agreement",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 18,
+    "user_input": "Give me the executive summary: the contract agreement",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 19,
+    "user_input": "Distill this information: the project proposal",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 20,
+    "user_input": "Write a summary of this email: the Q3 earnings call transcript",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary"
+  },
+  {
+    "id": 21,
+    "user_input": "What is the sentiment of this review? the project proposal",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 22,
+    "user_input": "Is this text positive or negative? the customer feedback survey",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 23,
+    "user_input": "Analyze the emotion in this paragraph: the blog post on productivity",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 24,
+    "user_input": "Does this sound angry to you? the terms of service",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 25,
+    "user_input": "How does the customer feel in this message? the latest financial report",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 26,
+    "user_input": "Determine the sentiment of this feedback: the contract agreement",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 27,
+    "user_input": "Is the tone of this email positive? the latest financial report",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 28,
+    "user_input": "What's the overall mood of this article? the user manual",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 29,
+    "user_input": "Evaluate the sentiment of this tweet: the article about AI trends",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 30,
+    "user_input": "Tell me if this is a good or bad review: the project proposal",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 31,
+    "user_input": "Extract the sentiment from this statement: the Q3 earnings call transcript",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 32,
+    "user_input": "How would you describe the tone here? the terms of service",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 33,
+    "user_input": "Is this person happy or sad? the article about AI trends",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 34,
+    "user_input": "Classify the sentiment of this comment: the terms of service",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 35,
+    "user_input": "What emotion is conveyed in this text? the article about AI trends",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 36,
+    "user_input": "Does this text have a positive vibe? the contract agreement",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 37,
+    "user_input": "Analyze the tone of this message: the contract agreement",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 38,
+    "user_input": "Find the emotional tone of this sentence: the customer feedback survey",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 39,
+    "user_input": "Is this a favorable or unfavorable review? the project proposal",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 40,
+    "user_input": "Tell me the sentiment score for this: the latest financial report",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score"
+  },
+  {
+    "id": 41,
+    "user_input": "Draft an email to my boss about the holiday schedule",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 42,
+    "user_input": "Write an email to the engineering manager regarding the client feedback",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 43,
+    "user_input": "Compose a professional email about the onboarding process",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 44,
+    "user_input": "Help me write an email to the team about the Q4 goals",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 45,
+    "user_input": "Draft a follow-up email for the budget approval",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 46,
+    "user_input": "Write a thank you email after the performance review",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 47,
+    "user_input": "Send an email to HR about the client feedback",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 48,
+    "user_input": "Draft an introductory email for the performance review",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 49,
+    "user_input": "Write an email declining the offer for the client feedback",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 50,
+    "user_input": "Compose an email requesting a meeting about the holiday schedule",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 51,
+    "user_input": "Create an email draft for the holiday schedule",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 52,
+    "user_input": "Write an out of office reply for the client feedback",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 53,
+    "user_input": "Draft an email to the client discussing the upcoming product launch",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 54,
+    "user_input": "Write a cold email about the onboarding process",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 55,
+    "user_input": "Help me draft an email asking for the holiday schedule",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 56,
+    "user_input": "Compose an email announcing the performance review",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 57,
+    "user_input": "Write an email apologizing for the Q4 goals",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 58,
+    "user_input": "Draft a resignation email due to the onboarding process",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 59,
+    "user_input": "Create a newsletter email about the server migration project",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 60,
+    "user_input": "Write an email to the marketing department about the client feedback",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft"
+  },
+  {
+    "id": 61,
+    "user_input": "Extract keywords from this text: the new HR policy document",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 62,
+    "user_input": "What are the main keywords here? the article about AI trends",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 63,
+    "user_input": "Find the most important words in this paragraph: the new HR policy document",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 64,
+    "user_input": "List the key phrases in this document: the latest financial report",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 65,
+    "user_input": "Identify the keywords in this article: the user manual",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 66,
+    "user_input": "Extract the top terms from this: the Q3 earnings call transcript",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 67,
+    "user_input": "What are the core topics mentioned here? the customer feedback survey",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 68,
+    "user_input": "Give me the keywords for this text: the customer feedback survey",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 69,
+    "user_input": "Find the SEO keywords in this post: the article about AI trends",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 70,
+    "user_input": "Pull out the main entities from this: the user manual",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 71,
+    "user_input": "Extract relevant tags for this article: the blog post on productivity",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 72,
+    "user_input": "What words best describe this text? the Q3 earnings call transcript",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 73,
+    "user_input": "List the main subjects in this document: the new HR policy document",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 74,
+    "user_input": "Identify the important terms here: the user manual",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 75,
+    "user_input": "Give me a list of keywords from the following: the latest financial report",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 76,
+    "user_input": "What are the significant words in this text? the terms of service",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 77,
+    "user_input": "Extract the main concepts from this: the customer feedback survey",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 78,
+    "user_input": "Find the key terms used in this paragraph: the article about AI trends",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 79,
+    "user_input": "What are the main topics covered here? the project proposal",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 80,
+    "user_input": "Extract tags from this description: the Q3 earnings call transcript",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list"
+  },
+  {
+    "id": 81,
+    "user_input": "Find the answer to this question in the FAQ: the refund policy",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 82,
+    "user_input": "How do I the privacy policy according to the FAQ?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 83,
+    "user_input": "What is the policy on the return process?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 84,
+    "user_input": "Can you look up billing cycles in the knowledge base?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 85,
+    "user_input": "Search the FAQ for requesting time off",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 86,
+    "user_input": "What does the documentation say about upgrading my account?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 87,
+    "user_input": "Is there an FAQ entry for upgrading my account?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 88,
+    "user_input": "Find information about the refund policy",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 89,
+    "user_input": "Help me find the answer to the shipping times",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 90,
+    "user_input": "What is the standard procedure for billing cycles?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 91,
+    "user_input": "Retrieve the FAQ for the refund policy",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 92,
+    "user_input": "Look up the guidelines for billing cycles",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 93,
+    "user_input": "What are the rules regarding billing cycles?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 94,
+    "user_input": "Where can I find details about requesting time off?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 95,
+    "user_input": "Check the help center for the return process",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 96,
+    "user_input": "Does the FAQ mention the privacy policy?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 97,
+    "user_input": "Find the official answer for the refund policy",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 98,
+    "user_input": "What is the company policy on the shipping times?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 99,
+    "user_input": "Search the docs for requesting time off",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 100,
+    "user_input": "How is requesting time off handled according to the FAQ?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer"
+  },
+  {
+    "id": 101,
+    "user_input": "Generate meeting notes from this transcript: the terms of service",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 102,
+    "user_input": "Create notes from this conversation: the new HR policy document",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 103,
+    "user_input": "Summarize this meeting: the user manual",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 104,
+    "user_input": "Write down the action items from this discussion: the latest financial report",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 105,
+    "user_input": "Take notes on this call: the terms of service",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 106,
+    "user_input": "Provide meeting minutes for this transcript: the contract agreement",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 107,
+    "user_input": "What were the key decisions in this meeting? the latest financial report",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 108,
+    "user_input": "Extract notes from this audio transcript: the article about AI trends",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 109,
+    "user_input": "Generate a summary of this meeting: the customer feedback survey",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 110,
+    "user_input": "List the action items from the following discussion: the Q3 earnings call transcript",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 111,
+    "user_input": "Create structured notes from this text: the user manual",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 112,
+    "user_input": "Organize these meeting notes: the customer feedback survey",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 113,
+    "user_input": "Draft meeting minutes from this log: the blog post on productivity",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 114,
+    "user_input": "What was discussed in this meeting? the article about AI trends",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 115,
+    "user_input": "Summarize the points made in this call: the user manual",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 116,
+    "user_input": "Extract the main takeaways from this meeting: the blog post on productivity",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 117,
+    "user_input": "Compile the notes from this session: the blog post on productivity",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 118,
+    "user_input": "Generate bullet points for this discussion: the blog post on productivity",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 119,
+    "user_input": "Provide a recap of this meeting: the customer feedback survey",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  },
+  {
+    "id": 120,
+    "user_input": "Write the meeting minutes based on this transcript: the project proposal",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes"
+  }
+]
