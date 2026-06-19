@@ -838,5 +838,425 @@
     "intent": "note",
     "expected_tool": "note_generator",
     "expected_response_type": "meeting_notes"
+  },
+  {
+    "user_input": "Give me a summary of: The meeting notes show we agreed on the budget.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 121
+  },
+  {
+    "user_input": "Can you summarize: The meeting notes show we agreed on the budget.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 122
+  },
+  {
+    "user_input": "Summarize this: Machine learning is a subset of AI.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 123
+  },
+  {
+    "user_input": "What are the main points of: Our new product features a faster processor and longer battery life.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 124
+  },
+  {
+    "user_input": "TL;DR: Machine learning is a subset of AI.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 125
+  },
+  {
+    "user_input": "Summarize this: The quarterly report details revenue growth.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 126
+  },
+  {
+    "user_input": "Can you summarize: The meeting notes show we agreed on the budget.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 127
+  },
+  {
+    "user_input": "Summarize this: Climate change is affecting weather patterns globally.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 128
+  },
+  {
+    "user_input": "TL;DR: The meeting notes show we agreed on the budget.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 129
+  },
+  {
+    "user_input": "TL;DR: The quarterly report details revenue growth.",
+    "intent": "summarize",
+    "expected_tool": "summarizer",
+    "expected_response_type": "text_summary",
+    "id": 130
+  },
+  {
+    "user_input": "How does this text feel: I really love this product.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 131
+  },
+  {
+    "user_input": "How does this text feel: Absolutely fantastic experience.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 132
+  },
+  {
+    "user_input": "What is the sentiment of: This is terrible and bad.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 133
+  },
+  {
+    "user_input": "Is this positive or negative: Absolutely fantastic experience.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 134
+  },
+  {
+    "user_input": "How does this text feel: Absolutely fantastic experience.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 135
+  },
+  {
+    "user_input": "How does this text feel: I really love this product.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 136
+  },
+  {
+    "user_input": "Analyze the sentiment: This is terrible and bad.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 137
+  },
+  {
+    "user_input": "What is the sentiment of: It was okay, nothing special.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 138
+  },
+  {
+    "user_input": "Is this positive or negative: It was okay, nothing special.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 139
+  },
+  {
+    "user_input": "What is the sentiment of: This is terrible and bad.",
+    "intent": "sentiment",
+    "expected_tool": "sentiment",
+    "expected_response_type": "sentiment_score",
+    "id": 140
+  },
+  {
+    "user_input": "Write an email to the client regarding the new proposal.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 141
+  },
+  {
+    "user_input": "Create an email draft for the upcoming conference.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 142
+  },
+  {
+    "user_input": "Draft an email about the team lunch on Friday.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 143
+  },
+  {
+    "user_input": "Draft an email about the team lunch on Friday.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 144
+  },
+  {
+    "user_input": "Create an email draft for the upcoming conference.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 145
+  },
+  {
+    "user_input": "Create an email draft for the upcoming conference.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 146
+  },
+  {
+    "user_input": "Compose a message to John about the budget.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 147
+  },
+  {
+    "user_input": "Draft an email about the project deadline.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 148
+  },
+  {
+    "user_input": "Create an email draft for the upcoming conference.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 149
+  },
+  {
+    "user_input": "Create an email draft for the upcoming conference.",
+    "intent": "email",
+    "expected_tool": "email_drafter",
+    "expected_response_type": "email_draft",
+    "id": 150
+  },
+  {
+    "user_input": "Extract keywords from this: The new AI model improves efficiency.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 151
+  },
+  {
+    "user_input": "Find the important words in: We are launching a new marketing campaign.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 152
+  },
+  {
+    "user_input": "Find the important words in: We are launching a new marketing campaign.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 153
+  },
+  {
+    "user_input": "Extract keywords from this: The new AI model improves efficiency.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 154
+  },
+  {
+    "user_input": "Find the important words in: We are launching a new marketing campaign.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 155
+  },
+  {
+    "user_input": "Extract keywords from this: The new AI model improves efficiency.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 156
+  },
+  {
+    "user_input": "Extract keywords from this: The new AI model improves efficiency.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 157
+  },
+  {
+    "user_input": "Identify keywords: Machine learning algorithms require large datasets.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 158
+  },
+  {
+    "user_input": "Find the important words in: We are launching a new marketing campaign.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 159
+  },
+  {
+    "user_input": "List the tags for: The database migration was successful.",
+    "intent": "keyword",
+    "expected_tool": "keyword_extractor",
+    "expected_response_type": "keyword_list",
+    "id": 160
+  },
+  {
+    "user_input": "Find FAQ for refund policy",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 161
+  },
+  {
+    "user_input": "Find FAQ for refund policy",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 162
+  },
+  {
+    "user_input": "What payment methods do you accept?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 163
+  },
+  {
+    "user_input": "I need technical support help",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 164
+  },
+  {
+    "user_input": "Where is the account deletion option?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 165
+  },
+  {
+    "user_input": "How can I do order tracking?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 166
+  },
+  {
+    "user_input": "I need technical support help",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 167
+  },
+  {
+    "user_input": "How can I do order tracking?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 168
+  },
+  {
+    "user_input": "How do I reset my password?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 169
+  },
+  {
+    "user_input": "How can I do order tracking?",
+    "intent": "faq",
+    "expected_tool": "faq_retriever",
+    "expected_response_type": "faq_answer",
+    "id": 170
+  },
+  {
+    "user_input": "Generate meeting notes from: We discussed the budget and agreed to increase it.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 171
+  },
+  {
+    "user_input": "Write notes: The marketing campaign was a success. ROI increased by 20%.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 172
+  },
+  {
+    "user_input": "Write notes: The marketing campaign was a success. ROI increased by 20%.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 173
+  },
+  {
+    "user_input": "Create notes for: The client approved the design. We will start development next week.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 174
+  },
+  {
+    "user_input": "Make notes from this: We need to hire two new developers for the frontend team.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 175
+  },
+  {
+    "user_input": "Create notes for: The client approved the design. We will start development next week.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 176
+  },
+  {
+    "user_input": "Take notes on: The server needs maintenance. John will do it on Saturday.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 177
+  },
+  {
+    "user_input": "Create notes for: The client approved the design. We will start development next week.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 178
+  },
+  {
+    "user_input": "Generate meeting notes from: We discussed the budget and agreed to increase it.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 179
+  },
+  {
+    "user_input": "Write notes: The marketing campaign was a success. ROI increased by 20%.",
+    "intent": "note",
+    "expected_tool": "note_generator",
+    "expected_response_type": "meeting_notes",
+    "id": 180
   }
 ]
