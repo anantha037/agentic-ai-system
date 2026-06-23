@@ -1,4 +1,5 @@
 import gradio as gr
+from gradio import ChatMessage
 import requests
 
 API_BASE_URL = "http://127.0.0.1:8000"
@@ -16,11 +17,12 @@ def send_message(user_input, chat_history):
         intent = data.get("intent", "none")
         tool_used = data.get("tool_used", data.get("tool", "none"))
         
-        chat_history.append((user_input, bot_response))
+        chat_history.append(ChatMessage(role="user", content=user_input))
+        chat_history.append(ChatMessage(role="assistant", content=bot_response))
         
         return chat_history, intent, tool_used, ""
     except Exception as e:
-        chat_history.append((user_input, f"Error: {str(e)}"))
+        chat_history.append(ChatMessage(role="assistant", content=f"Error: {str(e)}"))
         return chat_history, "error", "none", ""
 
 def clear_chat():
