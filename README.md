@@ -1,3 +1,12 @@
+---
+title: Agentic AI System
+emoji: 🤖
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+
 # Agentic AI Workflow Automation System
 
 The Agentic AI Workflow Automation System is an intelligent, intent-aware conversational agent designed to route user queries and automate various business workflows. By analyzing the user's text, it determines the underlying intent and executes the corresponding specialized tool to accomplish the task efficiently.
