@@ -16,8 +16,11 @@ RUN mkdir -p logs models
 # Run the training script so the model is baked into the image
 RUN python train.py
 
-# Expose the API port
-EXPOSE 8000
+# Expose the Hugging Face Spaces default port
+EXPOSE 7860
 
-# Start the FastAPI server
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+COPY start.sh .
+RUN chmod +x start.sh
+
+# Start both services using the script
+CMD ["bash", "start.sh"]
